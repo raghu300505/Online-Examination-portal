@@ -1,0 +1,21 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+.home {
+  background-image: url('/src/assets/background.jpg'); /* Ensure this path is correct */
+  background-size: cover; /* Ensures full coverage */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}

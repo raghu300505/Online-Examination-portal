@@ -1,0 +1,119 @@
+.Studentlogin{
+  background-image: url('/src/assets/background.jpg'); /* Update path if needed */
+  background-size: cover; /* Ensures the image covers the full area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating */
+  width: 100vw; /* Full width */
+  min-height: 100vh; /* Ensures full viewport height */
+  overflow-x: hidden; /* Prevents unwanted horizontal scrolling */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(242, 242, 242); /* Optional: Adjust text color */
+}
+
+/* Remove unwanted scrollbars and ensure full width */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px; /* Reduced padding from 60px to 30px */
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px; /* Adjusted to bring the logo closer to the left */
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px; /* Reduced right padding */
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-right: 40px; /* Moves links slightly left */
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* Left-side links */
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Right-side text */
+.footer-right {
+  font-size: 14px;
+  opacity: 0.8;
+  margin: 0;
+  margin-right: 40px;
+}
