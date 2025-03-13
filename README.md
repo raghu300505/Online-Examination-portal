@@ -4,6 +4,7 @@ Overview
    The Online Examination Portal is a web-based application designed to facilitate the creation, management, and execution of online exams. 
    It provides a seamless experience for Administrators, Instructors (Teachers), and Students, ensuring efficient exam administration, question management, and participation.
    
+   
 User Roles & Features
   Admin
       Manage users (approve, delete, or update accounts).
